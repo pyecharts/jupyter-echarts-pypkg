@@ -1,0 +1,4 @@
+[submodule "jupyter_echarts_pypkg/resources"]
+	path = jupyter_echarts_pypkg/resources
+	url = https://github.com/pyecharts/jupyter-echarts.git
+	branch = master
