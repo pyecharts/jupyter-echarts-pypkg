@@ -5,7 +5,6 @@ configuration:
   configuration: jupyter-echarts-pypkg.yml
 targets:
   - README.rst: CUSTOM_README.rst.jj2
-  - setup.py: custom_setup.py.jj2
   - requirements.txt: requirements.txt.jj2
   - "tests/requirements.txt": "tests/custom_requirements.txt.jj2"
   - "docs/source/conf.py": "docs/source/conf.py.jj2"
