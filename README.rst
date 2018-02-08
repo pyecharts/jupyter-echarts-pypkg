@@ -16,6 +16,15 @@ Installation
 ================================================================================
 
 
+You can install jupyter-echarts-pypkg via pip:
+
+.. code-block:: bash
+
+    $ pip install jupyter-echarts-pypkg
+
+
+or clone it and install it:
+
 .. code-block:: bash
 
     $ git clone https://github.com/chfw/jupyter-echarts-pypkg.git
