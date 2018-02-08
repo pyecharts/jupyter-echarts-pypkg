@@ -8,9 +8,9 @@ jupyter-echarts-pypkg
 .. image:: https://codecov.io/gh/chfw/jupyter-echarts-pypkg/branch/master/graph/badge.svg
    :target: https://codecov.io/gh/chfw/jupyter-echarts-pypkg
 
-.. image:: https://readthedocs.org/projects/jupyter-echarts-pypkg/badge/?version=latest
-   :target: http://jupyter-echarts-pypkg.readthedocs.org/en/latest/
 
+The project packages `jupyter-echarts <https://github.com/pyecharts/jupyter-echarts>`_
+and distributes it via pypi. 
 
 Installation
 ================================================================================

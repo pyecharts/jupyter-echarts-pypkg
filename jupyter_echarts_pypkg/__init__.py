@@ -7,7 +7,7 @@ from lml.plugin import PluginInfoChain, PluginInfo
 from pyecharts.js_extensions import JsExtension
 
 
-@PluginInfo('pyecharts_js_extension', 'all')
+@PluginInfo('pyecharts_js_extension', tags=['core'])
 class JupyterEcharts(JsExtension):
     def __init__(self):
         __package_path__ = os.path.dirname(__file__)
