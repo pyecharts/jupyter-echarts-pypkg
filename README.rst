@@ -30,3 +30,4 @@ or clone it and install it:
     $ git clone https://github.com/chfw/jupyter-echarts-pypkg.git
     $ cd jupyter-echarts-pypkg
     $ python setup.py install
+
