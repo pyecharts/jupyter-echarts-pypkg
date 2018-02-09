@@ -8,6 +8,7 @@ targets:
   - requirements.txt: requirements.txt.jj2
   - "tests/requirements.txt": "tests/custom_requirements.txt.jj2"
   - "docs/source/conf.py": "docs/source/conf.py.jj2"
+  - setup.py: custom_setup.py.jj2
   - test.sh: test.script.jj2
   - "jupyter_echarts_pypkg/_version.py": "_version.py.jj2"
   - .gitignore: gitignore.jj2
