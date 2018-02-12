@@ -1,12 +1,13 @@
 name: "jupyter-echarts-pypkg"
-organisation: "chfw"
+organisation: "pyecharts"
 author: "C.W."
 contact: "wangc_2011@hotmail.com"
 company: "C.W."
-version: "0.0.3"
-current_version: "0.0.3"
-release: "0.0.3"
+version: "0.0.4"
+current_version: "0.0.4"
+release: "0.0.4"
 copyright_year: 2018
 license: MIT
-dependencies: []
+dependencies:
+  - lml==0.0.2
 description: "Echarts pypi packages for jupyter and python"
