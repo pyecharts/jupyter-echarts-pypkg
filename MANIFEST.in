@@ -1,4 +1,4 @@
 include README.rst
 include CHANGELOG.rst
 include jupyter_echarts_pypkg/resources/echarts/*.js
-include jupyter_echarts_pypkg/resources/registry.json
+include jupyter_echarts_pypkg/resources/echarts/registry.json
