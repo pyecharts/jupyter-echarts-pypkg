@@ -49,14 +49,14 @@ INSTALL_REQUIRES = [
     'lml==0.0.2',
 ]
 SETUP_COMMANDS = install_cmd_for(
-    'jupyter-echarts', 'jupyter_echarts_pypkg/resources')
+    'jupyter-echarts', 'jupyter_echarts_pypkg/resources/echarts')
 
 
 PACKAGES = find_packages(exclude=['ez_setup', 'examples', 'tests'])
 EXTRAS_REQUIRE = {
 }
 # You do not need to read beyond this line
-PUBLISH_COMMAND = '{0} setup.py sdist bdist_wheel upload -r pypi'.format(
+PUBLISH_COMMAND = '{0} setup.py sdist upload -r pypi'.format(
     sys.executable)
 GS_COMMAND = ('gs jupyter-echarts-pypkg v0.0.4 ' +
               "Find 0.0.4 in changelog for more details")
