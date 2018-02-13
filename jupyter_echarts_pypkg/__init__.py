@@ -3,7 +3,7 @@ import os
 
 from jupyter_echarts_pypkg._version import __version__
 from jupyter_echarts_pypkg._version import __author__
-from lml.plugin import PluginInfoChain, PluginInfo
+from lml.plugin import PluginInfo
 
 
 @PluginInfo('pyecharts_js_extension', tags=['core'])
