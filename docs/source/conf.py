@@ -16,8 +16,8 @@ master_doc = 'index'
 
 project = u'jupyter-echarts-pypkg'
 copyright = u'2018 C.W.'
-version = '0.0.9'
-release = '0.0.9'
+version = '0.0.10'
+release = '0.0.10'
 exclude_patterns = []
 pygments_style = 'sphinx'
 html_theme = 'default'

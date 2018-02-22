@@ -14,5 +14,5 @@ except ImportError:
 
 {% block additional_setup_commands %}
 SETUP_COMMANDS = install_cmd_for(
-    '{{project_name}}', '{{project_name | replace('-', '_')}}/resources/{{js_project}}')
+    'jupyter-echarts', 'jupyter_echarts_pypkg/resources/echarts')
 {% endblock %}
