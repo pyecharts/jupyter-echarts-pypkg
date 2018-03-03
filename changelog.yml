@@ -1,0 +1,13 @@
+releases:
+- changes:
+  - action: Updated
+    details:
+    - updated jupyter-echarts to 1.4.0
+  date: unreleased
+  version: 0.1.0
+- changes:
+  - action: Added
+    details:
+    - First usable pypkg
+  date: 22/02/2018
+  version: 0.0.11

@@ -18,14 +18,14 @@ PY26 = PY2 and sys.version_info[1] < 7
 
 NAME = 'jupyter-echarts-pypkg'
 AUTHOR = 'C.W.'
-VERSION = '0.0.10'
+VERSION = '0.1.0'
 EMAIL = 'wangc_2011@hotmail.com'
 LICENSE = 'MIT'
 DESCRIPTION = (
     'Echarts pypi packages for jupyter and python'
 )
 URL = 'https://github.com/pyecharts/jupyter-echarts-pypkg'
-DOWNLOAD_URL = '%s/archive/0.0.10.tar.gz' % URL
+DOWNLOAD_URL = '%s/archive/0.0.11.tar.gz' % URL
 FILES = ['README.rst',  'CHANGELOG.rst']
 KEYWORDS = [
     'python'
@@ -59,8 +59,8 @@ EXTRAS_REQUIRE = {
 # You do not need to read beyond this line
 PUBLISH_COMMAND = '{0} setup.py sdist upload -r pypi'.format(
     sys.executable)
-GS_COMMAND = ('gs jupyter-echarts-pypkg v0.0.10 ' +
-              "Find 0.0.10 in changelog for more details")
+GS_COMMAND = ('gs jupyter-echarts-pypkg v0.0.11 ' +
+              "Find 0.0.11 in changelog for more details")
 NO_GS_MESSAGE = ('Automatic github release is disabled. ' +
                  'Please install gease to enable it.')
 UPLOAD_FAILED_MSG = (
