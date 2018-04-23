@@ -1,9 +1,17 @@
+name: jupyter-echarts-pypkg
+organisation: pyecharts
 releases:
 - changes:
   - action: Updated
     details:
+    - "`pyecharts#492`: Pip 10 compatibility issues"
+  date: 24/04/2018
+  version: 0.1.1
+- changes:
+  - action: Updated
+    details:
     - updated jupyter-echarts to 1.4.0
-  date: unreleased
+  date: 03/03/2018
   version: 0.1.0
 - changes:
   - action: Added
