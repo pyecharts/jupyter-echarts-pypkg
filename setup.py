@@ -7,10 +7,10 @@ from setuptools import setup, find_packages, Command
 try:
     from pyecharts_jupyter_installer import install_cmd_for
 except ImportError:
-    import pip
+    import subprocess
     import importlib
 
-    pip.main(['install', 'pyecharts-jupyter-installer'])
+    subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'pyecharts-jupyter-installer'])
     install_cmd_for = importlib.import_module(
         'pyecharts_jupyter_installer').install_cmd_for
 PY2 = sys.version_info[0] == 2
@@ -26,7 +26,7 @@ DESCRIPTION = (
 )
 URL = 'https://github.com/pyecharts/jupyter-echarts-pypkg'
 DOWNLOAD_URL = '%s/archive/0.1.0.tar.gz' % URL
-FILES = ['README.rst',  'CHANGELOG.rst']
+FILES = ['README.rst', 'CHANGELOG.rst']
 KEYWORDS = [
     'python'
 ]
@@ -89,6 +89,8 @@ class PublishCommand(Command):
         try:
             self.status('Removing previous builds...')
             rmtree(os.path.join(HERE, 'dist'))
+            rmtree(os.path.join(HERE, 'build'))
+            rmtree(os.path.join(HERE, 'jupyter_echarts_pypkg.egg-info'))
         except OSError:
             pass
 
@@ -106,7 +108,7 @@ class PublishCommand(Command):
 
 
 SETUP_COMMANDS.update({
-    'publish': PublishCommand,
+    'publish': PublishCommand
 })
 
 
