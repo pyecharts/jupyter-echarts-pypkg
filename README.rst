@@ -2,11 +2,12 @@
 jupyter-echarts-pypkg
 ================================================================================
 
-.. image:: https://api.travis-ci.org/pyecharts/jupyter-echarts-pypkg.svg?branch=master
+.. image:: https://api.travis-ci.org/pyecharts/jupyter-echarts-pypkg.svg
    :target: http://travis-ci.org/pyecharts/jupyter-echarts-pypkg
 
-.. image:: https://codecov.io/gh/pyecharts/jupyter-echarts-pypkg/branch/master/graph/badge.svg
-   :target: https://codecov.io/gh/pyecharts/jupyter-echarts-pypkg
+.. image:: https://codecov.io/github/pyecharts/jupyter-echarts-pypkg/coverage.png
+   :target: https://codecov.io/github/pyecharts/jupyter-echarts-pypkg
+
 
 
 The project packages `jupyter-echarts <https://github.com/pyecharts/jupyter-echarts>`_
