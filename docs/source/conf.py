@@ -24,13 +24,13 @@ DESCRIPTION = (
 # -- Project information -----------------------------------------------------
 
 project = u'jupyter-echarts-pypkg'
-copyright = u'2018 C.W.'
+copyright = u'2018-2019 C.W.'
 author = u'C.W.'
 
 # The short X.Y version
-version = u'0.1.4'
+version = u'0.1.5'
 # The full version, including alpha/beta/rc tags
-release = u'0.1.4'
+release = u'0.1.5'
 
 
 # -- General configuration ---------------------------------------------------

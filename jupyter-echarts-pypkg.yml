@@ -3,10 +3,10 @@ organisation: "pyecharts"
 author: "C.W."
 contact: "wangc_2011@hotmail.com"
 company: "C.W."
-version: "0.1.4"
-current_version: "0.1.4"
-release: "0.1.4"
-copyright_year: 2018
+version: "0.1.5"
+current_version: "0.1.5"
+release: "0.1.5"
+copyright_year: 2018-2019
 license: MIT
 nowheel: true
 dependencies:
